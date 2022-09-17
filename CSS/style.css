@@ -15,12 +15,24 @@ body {
 
 .page-title {
     color: #ffffff;
-    margin: 0 0 5px;
+    margin: 0 0 8px;
   }
 
 .title-logo {
     width: 200px;
-  }
+    margin: 0 0 18px;
+}
+input{
+    width: 400px;
+    color: #3466AF;
+    
+}
+.confirm-button{
+    font-size: 15px;
+    font-weight: bold;
+    color: #3466AF;
+    background-color:#FFCB05;
+}
 body > img {
     margin: 0 10px;
   }
