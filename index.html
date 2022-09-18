@@ -9,13 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="page-title">PokéFlix</h1>
-        <img class="title-logo" src="assets/image/logoPoke.png" alt="Logo">
-        <br>
-        <input type="text" placeholder="URL da imagem" id="URL">
-        <button type="submit" class="confirm-button" onclick="confirmar()">Confirmar</button>
-    </div>
-    <img Id="Filmes" src="" alt="">
+        <h1 class="page-title">
+          Pokéflix
+        </h1>
+        <img src="https://i.im.ge/2022/09/18/12NXv6.pngwing-com-8.png" class="page-logo" alt="">
+        <p class="page-subtitle">
+          Quais seus filmes Pokémon favoritos?
+        </p>
+        <div class="form-wrapper">
+          <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+          <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+      </div>
+      <div id="listaFilmes"></div>
+      <a href="https://github.com/LeoSCorreia" target="_blank">
+        <img src="assets/image/github.png" alt="" class="Github-logo">
+      </a>
 
     <script src="JS/script.js"></script>
 </body>
